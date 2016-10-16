@@ -3,4 +3,4 @@
 ±¾µØÍ¼Æ¬
 ![Í¼Æ¬²âÊÔ](picture/pic_test.jpg)
 githubÍ¼Æ¬
-![githubÍ¼Æ¬](https://github.com/leon0625/blog/picture/pic_test.jpg)
+![githubÍ¼Æ¬](https://github.com/leon0625/blog/blob/master/picture/pic_test.jpg)
