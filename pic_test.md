@@ -1,6 +1,10 @@
-#Í¼Æ¬Á´½Ó²âÊÔ
-##¿ÉÒÔ¿´µ½Í¼Æ¬Âğ?
-±¾µØÍ¼Æ¬
-![Í¼Æ¬²âÊÔ](picture/pic_test.jpg)
-githubÍ¼Æ¬
-![githubÍ¼Æ¬](https://github.com/leon0625/blog/blob/master/picture/pic_test.jpg)
+#å›¾ç‰‡é“¾æ¥æµ‹è¯•
+##å¯ä»¥çœ‹åˆ°å›¾ç‰‡å—?
+æœ¬åœ°å›¾ç‰‡
+![å›¾ç‰‡æµ‹è¯•](picture/pic_test.jpg)
+githubå›¾ç‰‡
+![githubå›¾ç‰‡](https://github.com/leon0625/blog/blob/master/picture/pic_test.jpg)
+
+å›¾ç‰‡æµ‹è¯•2
+![pic 2](pic2/pic/pic_test2.jpg)
+
