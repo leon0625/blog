@@ -1,5 +1,5 @@
 ## 使用github写笔记  
-remote 修改
+remote llm 修改
 * 在github建立一个blog仓库  
 * 在这个仓库的设置里面添加自己电脑的ssh公钥。  
 `ssh-keygen -t rsa -C "youremail@example.com"`生产，打开~/.ssh/id_rsa.pub复制里面的内容设置进github  
