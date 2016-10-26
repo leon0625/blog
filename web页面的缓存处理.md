@@ -184,7 +184,7 @@ html的head头里面加入如下语句
 
 * 如何让小图标及时刷新？  
 在代码中显式加入小图标的代码，并在链接部分加入后缀如'href="/favicon.ico?v=2"'，这样操作可以确保每次ico图标更新，页面就会更新。但是**如果直接删掉图标，就不好使了**，页面还是会显示原来缓存的图标。怎么办呢？**做一个中性图标**。  
-制作一个透明图标或许是最好的选择，不受标签页背景色影响，看着也不突兀。效果如下  
+制作一个透明图标或许比较好，不受标签页背景色影响，看着也不突兀。效果如下  
 ![](pic/20161022_nocache006.png)  
 所以以后客户定制图标就用定制的，不定制就用透明图标  
 *想到以后再也不用给客户解释图标问题了，好激动~*  
@@ -226,7 +226,7 @@ savepath_list=`find $save_path -type f ! -path "*.svn*"`
 for filepath in $savepath_list
 do
     case $filepath in 
-        *.js|*.css|*.png|*.jpg|*.gif)
+        *.js|*.css|*.png|*.jpg|*.gif|*.ico)
             # 遍历文件html,css,js文件替换文件名
             name=${filepath##*/}
             md5=`md5sum $filepath | awk '{print $1}'`
