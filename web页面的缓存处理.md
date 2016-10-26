@@ -403,7 +403,7 @@ int init(char *key_file, char *target_file)
     {
         char *src = NULL, *dest = NULL;
         int len = strlen(buf);
-        if(buf[len - 1] = '\n')
+        if(buf[len - 1] == '\n')
             buf[len - 1] = '\0';
         dest = strchr(buf, ' ');
         if(!dest)
@@ -432,7 +432,7 @@ int init(char *key_file, char *target_file)
     while(fgets(buf, sizeof(buf), fp))
     {
         int len = strlen(buf);
-        if(buf[len - 1] = '\n')
+        if(buf[len - 1] == '\n')
             buf[len - 1] = '\0';
         update_file_list(buf);
         memset(buf, 0x0, sizeof(buf));
