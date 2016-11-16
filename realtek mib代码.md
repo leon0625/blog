@@ -11,8 +11,8 @@
  ![flash上的配置布局](pic/flash上的配置布局.png)
 
 　　flash上存储的mib数据如下图。在初始化的时候先读压缩头（COMPRESS_MIB_HEADER），判断是什么配置，获取压缩参数，计算解压后的长度（compRate*compLen），然后读出压缩数据并解压。解压之后的数据有个参数头（HW_PARAM_HEADER_T）。
-
-```c
+  
+```c  
 /* flash上存储的mib数据
 -------------------------------------------------------                      
 | COMPRESS_MIB_HEADER | 	压缩的mib数据  
@@ -35,7 +35,7 @@ typedef struct hw_param_header {
 	unsigned short len;
 }__PACK__ HW_PARAM_HEADER_T, *HW_PARAM_HEADER_Tp;
 ```
-
+  
 
 
 ------
